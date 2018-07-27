@@ -1,0 +1,64 @@
+/* Series Engine CSS for two column view */
+
+/* Affects Left Side */
+
+.left-side-sermon-player .enmse-modern-message-meta {
+    display: none;
+}
+
+.left-side-sermon-player .enmse-modern-message-title {
+    display: none;
+}
+
+/* Affects Right Side */
+
+.right-side-sermon-player .enmse-media-container.modern {
+   display: none; 
+}
+
+.right-side-sermon-player .enmse-modern-player-details h3 {
+    display: none;
+    background-color: rgba(0,0,0,0.0);
+}
+
+#seriesengine h3.enmse-modern-message-meta {
+	font-size: 16px !important;
+	font-style: italic;
+	text-align: left;
+	margin: 4px 0 6px 0;
+	padding: 0;
+	background-color: rgba(0,0,0,0.0);
+}
+
+/* Affects All */ 
+
+#seriesengine .enmse-player {
+    font-size: 20px !important;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+#seriesengine h2.enmse-modern-message-title {
+	color: #000000;
+	font-size: 28px !important;
+	text-transform: regular-text;
+	letter-spacing: .1em;
+	font-weight: 600;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+#seriesengine .enmse-media-container {
+	background-color: rgba(0, 0, 0, 0.0);
+	width: inherit;
+	padding: 0px;
+	line-height: 0 ;
+}
+
+#seriesengine .enmse-media-container.modern {
+		padding: 0px;
+	}
+	
+#seriesengine .enmse-share-details.modern {
+    display: none;
+    background-color: rgba(0,0,0,0.0);
+}
