@@ -1,4 +1,6 @@
 /* Series Engine CSS for two column view */
+/* Add this to wherever you put your CSS. Make sure to add the right and left classes */
+/* It would be wise to add another class to the 'affects all' if you are applying CSS sitewide and have multiple SE instances */
 
 /* Affects Left Side */
 
